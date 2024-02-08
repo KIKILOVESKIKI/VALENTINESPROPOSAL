@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f7e1ea;
+            color: #4d4d4d;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff4d6a;
+            padding: 1rem;
+            color: white;
+            font-size: 24px;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            background-color: #ff4d6a;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e63c56;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Will You Be My Valentine?</h1>
+    </header>
+
+    <main>
+        <p>Dear Metlhaesele,</p>
+        <p>As Valentine's Day approaches, I find myself thinking about the love and joy you bring into my life.</p>
+        <p>On this special day of love, I want to ask you a question that has been on my mind...</p>
+        <p>Will you make me the happiest person in the world by being my Valentine?</p>
+        <p>I look forward to creating many more beautiful memories together.</p>
+        <p>With all my love,</p>
+        <p>Keoagile</p>
+
+        <button onclick="location.href='mailto:recipient@example.com?subject=Valentine%27s%20Day%20Proposal&body=Dear%20[Partner%27s%20Name],%0A%0A%20%20%20%20I%20love%20you%20and%20want%20to%20spend%20Valentine%27s%20Day%20and%20every%20day%20after%20with%20you.%0A%0A%20%20%20%20Will%20you%20be%20my%20Valentine?%0A%0A%20%20%20%20With%20all%20my%20love,%0A%20%20%20%20[Your%20Name]'">Yes, I will!</button>
+    </main>
+
+</body>
+</html>
